@@ -1,0 +1,15 @@
+@import url(./header.css);
+
+:root {
+    --red: #8E2424;
+    --gray-900: #101828;
+    --gray-500: #667085;
+    --bg-main: #FFF;
+    --bg-transparent: rgba(196, 25, 25, 0.03);
+    --bg-footer: #F9FAFB;
+}
+
+#body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
