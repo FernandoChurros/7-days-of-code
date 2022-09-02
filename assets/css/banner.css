@@ -38,13 +38,15 @@
 .container__banner_metric {
     display: flex;
     column-gap: 2rem;
-    margin: 0 112px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 .container__metric {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
+    width: calc(90%/4);
 }
 
 .banner__metric_number {
