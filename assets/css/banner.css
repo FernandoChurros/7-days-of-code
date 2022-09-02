@@ -1,14 +1,20 @@
 .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+
+            /* CCS container__banner_intro */
+.container__banner_intro {
+    width: 50%;
+    text-align: center;
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-
-.container__banner {
-    width: 50%;
-    text-align: center;
 }
 
 .banner__title_primary {
@@ -25,4 +31,35 @@
 .banner__paragraph {
     color: var(--gray-500); 
     line-height: 30px;
+}
+
+
+            /* CCS container__banner_metric */
+.container__banner_metric {
+    display: flex;
+    column-gap: 2rem;
+    margin: 0 112px;
+}
+
+.container__metric {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.banner__metric_number {
+    color: var(--red);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner__metric_title {
+    color: var(--gray-900);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner__metric_paragraph {
+    color: var(--gray-500);
+    line-height: 24px;
 }
