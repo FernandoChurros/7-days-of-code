@@ -2,6 +2,7 @@
 @import url(./banner.css);
 @import url(./vagas.css);
 @import url(./testimonials.css);
+@import url(./footer.css);
 
 :root {
     --red: #8E2424;
